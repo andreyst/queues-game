@@ -1,0 +1,74 @@
+.clear {
+  clear: both;
+}
+
+.current_team_header {
+    text-align: center; /* Horizontal center alignment */
+}
+
+.team_picker_container {
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+    justify-content: center; /* Horizontal center alignment */
+}
+
+.team_picker {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+  display: flex;
+  align-items: center; /* Vertical center alignment */
+  justify-content: center; /* Horizontal center alignment */
+}
+
+.team_picker.red {
+  background: red;
+}
+
+.team_picker.blue {
+  background: blue;
+}
+
+.team_picker.observer {
+  background: brown;
+}
+
+#start_game {
+  border: 1px solid green;
+  width: 300px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  align-items: center; /* Vertical center alignment */
+  justify-content: center; /* Horizontal center alignment */
+}
+
+#generate_task {
+  background: red;
+  width: 300px;
+  height: 50px;
+  margin: 50px auto 50px;
+  display: flex;
+  align-items: center; /* Vertical center alignment */
+  justify-content: center; /* Horizontal center alignment */
+}
+
+#waiting_for_task {
+  width: 300px;
+  height: 50px;
+  margin: 50px auto 50px;
+  display: flex;
+  align-items: center; /* Vertical center alignment */
+  justify-content: center; /* Horizontal center alignment */
+}
+
+#finish_task {
+  border: 1px solid blue;
+  width: 300px;
+  height: 50px;
+  margin: 50px auto 50px;
+  display: flex;
+  align-items: center; /* Vertical center alignment */
+  justify-content: center; /* Horizontal center alignment */
+}
