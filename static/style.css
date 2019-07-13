@@ -30,11 +30,11 @@
   background: blue;
 }
 
-.team_picker.observer {
+.team_picker.observers {
   background: brown;
 }
 
-#start_game {
+#ready_button {
   border: 1px solid green;
   width: 300px;
   height: 50px;
